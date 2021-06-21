@@ -1,0 +1,17 @@
+================================================================================
+Casos públicos
+================================================================================
+Caso:
+
+print(casos_positivos('https://raw.githubusercontent.com/PaulaAndresOli/P23/main/casos_positivos_colombia.csv'))
+
+Respuesta:
+
+{'POR_INFEC_MUJER': {'ANTIOQUIA': 46.67, 'ATLANTICO': 40.0, 'BOGOTA': 50.29, 'BOYACA': 85.29, 'CALDAS': 57.14, 'CASANARE': 47.62, 'CAUCA': 40.43, 'CESAR': 36.25, 'CORDOBA': 44.44, 'CUNDINAMARCA': 45.0, 'HUILA': 45.45, 'META': 10.34, 'NORTE SANTANDER': 56.19, 'PUTUMAYO': 83.33, 'QUINDIO': 45.45, 'RISARALDA': 12.05, 'SAN ANDRES': 51.55, 'SANTANDER': 60.0, 'TOLIMA': 33.33, 'VALLE': 50.0}, 'POR_INFEC_HOMBRE': {'ANTIOQUIA': 53.33, 'ATLANTICO': 60.0, 'BOGOTA': 49.71, 'BOYACA': 14.71, 'CALDAS': 42.86, 'CASANARE': 52.38, 'CAUCA': 59.57, 'CESAR': 63.75, 'CORDOBA': 55.56, 'CUNDINAMARCA': 55.0, 'HUILA': 54.55, 'META': 89.66, 'NORTE SANTANDER': 43.81, 'PUTUMAYO': 16.67, 'QUINDIO': 54.55, 'RISARALDA': 87.95, 'SAN ANDRES': 48.45, 'SANTANDER': 40.0, 'TOLIMA': 66.67, 'VALLE': 50.0}, 'POR_FALL_MUJER': {'ANTIOQUIA': 16.67, 'ATLANTICO': 0.0, 'BOGOTA': 0.58, 'BOYACA': 82.35, 'CALDAS': 28.57, 'CASANARE': 19.05, 'CAUCA': 34.04, 'CESAR': 7.5, 'CORDOBA': 11.11, 'CUNDINAMARCA': 30.0, 'HUILA': 31.82, 'META': 6.9, 'NORTE SANTANDER': 27.84, 'PUTUMAYO': 33.33, 'QUINDIO': 36.36, 'RISARALDA': 6.02, 'SAN ANDRES': 10.31, 'SANTANDER': 53.33, 'TOLIMA': 33.33, 'VALLE': 16.67}, 'POR_FALL_HOMBRE': {'ANTIOQUIA': 20.0, 'ATLANTICO': 0.0, 'BOGOTA': 2.92, 'BOYACA': 8.82, 'CALDAS': 28.57, 'CASANARE': 23.81, 'CAUCA': 35.64, 'CESAR': 7.5, 'CORDOBA': 11.11, 'CUNDINAMARCA': 30.0, 'HUILA': 31.82, 'META': 55.17, 'NORTE SANTANDER': 20.62, 'PUTUMAYO': 5.0, 'QUINDIO': 9.09, 'RISARALDA': 53.01, 'SAN ANDRES': 2.06, 'SANTANDER': 6.67, 'TOLIMA': 33.33, 'VALLE': 16.67}}
+
+Caso:
+
+print(casos_positivos('https://raw.githubusercontent.com/PaulaAndresOli/P23/main/casos_positivos_colombia.txt'))
+
+Respuesta:
+Extension invalida.
